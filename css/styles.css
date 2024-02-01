@@ -140,6 +140,13 @@ ul {
 
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
@@ -207,6 +214,19 @@ ul {
 
 .advantages-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.advantages-icon {
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  max-width: 264px;
+  margin-bottom: 8px;
+}
+
+.icon-section-two {
+  margin: 24px 100px;
 }
 
 .advantages-subtitle {
@@ -281,6 +301,35 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.icon-list {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.icon-icon {
+  fill: #fff;
 }
 
 /* ================================ */
